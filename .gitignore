@@ -1,47 +1,16 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+#ignore class files
+**/*.class
 
-# Folder config file
-Desktop.ini
+#ignore the bin, lib, logs, temp, and work dirs
+bin/**
+lib/**
+logs/**
+temp/**
+work/**
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+#ignore the Tomcat default webapps
+webapps/docs/**
+webapps/examples/**
+webapps/host-manager/**
+webapps/manager/**
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
